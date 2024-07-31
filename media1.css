@@ -1,0 +1,707 @@
+@media (max-width:768px) {
+
+    .row {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+        /* overflow: hidden; */
+    }
+
+
+
+    header {
+        background-color: teal;
+        height: 60rem;
+        width: 100%;
+        overflow: hidden;
+    }
+
+
+    .navLinks {
+        display: none;
+    }
+
+
+    .headerParent {
+        display: flex;
+        flex-direction: column;
+        margin-top: .2rem;
+    }
+
+    .header-fig {
+        width: 100%;
+        height: 24rem;
+    }
+
+
+    .headerTextarea {
+        width: 100%;
+        height: 26.4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .headerText {
+        font-size: 2rem;
+        color: white;
+        width: 25rem;
+    }
+
+
+    .headerPara {
+        color: white;
+        font-size: 1.2rem;
+        width: 30rem;
+        text-align: center;
+    }
+
+    #what-we-do {
+        width: 100%;
+    }
+
+    .wwd-head {
+        /* border: 2px solid red; */
+        height: 8rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 6rem;
+        gap: 1.5rem;
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    .what-flex {
+        width: 100%;
+    }
+
+    .head-cards {
+        width: 100%;
+        border: 2px solid red;
+        background-color: lightblue;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1.2rem;
+        margin-top: 1rem;
+        /* margin: 1rem 0 10rem 0; */
+    }
+
+
+    /* .trial{
+        width: 100%;
+        background-color: red;
+    } */
+
+    .card1 {
+        height: 17rem;
+        width: 100rem;
+        /* border: 2px solid aqua; */
+        border-radius: 0.5rem;
+        box-shadow: 0.5px 0.5px 10px 5px whitesmoke;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding-top: 2rem;
+        text-align: center;
+    }
+
+
+    .main-div {
+        margin-bottom: 50rem;
+    }
+
+    .polo {
+        width: 18rem;
+        font-size: 12px;
+
+    }
+
+
+    .courage {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        overflow: hidden;
+    }
+
+    #w-w-c_main {
+        height: 50rem;
+    }
+
+
+    .w-w-c_text {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+    .w-w-c_para {
+        width: 23rem;
+    }
+
+    .w-w-c-img {
+        width: 100%;
+        height: 17rem;
+        padding: 0.7rem;
+    }
+
+
+
+    .w-w-c_second {
+        padding-left: 6rem;
+    }
+
+    .w-w-c_third {
+        padding-right: 10rem;
+    }
+
+
+
+    .w-w-c_head {
+        width: 20rem;
+        padding-left: 1rem;
+    }
+
+
+    .w-w-c_small1 {
+        padding-left: 1rem;
+    }
+
+
+
+    .emma {
+        display: flex;
+        flex-direction: column;
+        height: 44rem;
+        justify-content: center;
+        /* align-items: center; */
+        overflow: hidden;
+    }
+
+    
+    .solu-img {
+        width: 100%;
+        height: 15rem;
+    }
+
+
+    .solu-texthead {
+        width: 24rem;
+    }
+
+
+    .solu-para {
+        width: 27rem;
+    }
+
+
+    .emma-list {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+
+    .bul {
+        width: 20rem;
+    }
+
+
+
+    .parentcard {
+        /* border: 2px solid red; */
+        height: 11rem;
+        width: 22.5rem;
+        border-radius: 0.4rem;
+        display: flex;
+        justify-content: space-around;
+        background-color: teal;
+        flex-wrap: wrap;
+        /* padding: auto; */
+        align-items: center;
+    }
+
+
+
+    .lilcard {
+        /* border: 2px solid yellow; */
+        height: 3rem;
+        width: 40%;
+        background-color: teal;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    #cards {
+        height: 20rem;
+    }
+
+
+    #studies {
+        width: 100%;
+        height: 32rem;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        /* gap: 2rem; */
+        align-items: center;
+        justify-content: center;
+        margin-top: 12rem;
+        margin-bottom: 17rem;
+    }
+
+    .studies-text {
+        /* display: flex; */
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .stu-txt1 {
+        width: 30rem;
+        font-size: 1.5rem;
+        text-align: center;
+        margin-left: 5rem;
+        justify-content: center;
+        width: 25rem;
+
+    }
+
+
+
+    .stu-cards {
+        height: 100rem;
+        width: 60%;
+        /* border: 2px solid lightblue; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* border-radius: 2rem; */
+        margin-top: 1rem;
+    }
+
+
+
+
+    .stu-small {
+        height: 19rem;
+        width: 100%;
+        /* border: 2px solid red; */
+        border-radius: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        box-shadow: 2px 5 px 10px whitesmoke;
+        /* padding-top: 10rem; */
+
+    }
+
+
+    footer {
+        background-color: #343E51;
+        width: 100%;
+        height: 55rem;
+        padding-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: center; */
+
+    }
+
+
+
+    .foot-head {
+        width: 100%;
+        height: 100rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* text-align: center; */
+        margin-bottom: 1rem;
+    }
+
+
+    .head-t {
+        color: white;
+        font-size: 1.7rem;
+        width: 30rem;
+        margin-bottom: 1rem;
+
+
+
+
+
+        .nav-btn1 {
+            border: none;
+            background-color: teal;
+            border-radius: 1.5rem;
+            /* padding: 0.8rem; */
+            color: white;
+            font-size: 14px;
+            height: 2rem;
+            width: 8rem;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
+            margin-right: 22rem;
+        }
+
+
+        .foot-end {
+            width: 100%;
+            height: 70rem;
+            /* background-color: teal;  */
+            display: flex;
+            flex-direction: column;
+            /* justify-content: space-between; */
+            padding-top: 1rem;
+            /* padding: 2rem; */
+
+        }
+
+
+
+
+        .foot-card1 {
+            /* border: 2px solid red;  */
+            height: 3rem;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            /* gap: 0.5REM; */
+            text-align: left;
+            padding-top: 4rem;
+        }
+
+
+
+
+        .foot-card2 {
+            /* border: 2px solid red;    */
+            height: 89%;
+            width: 40rem;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            /* gap: 0.5REM; */
+            text-align: left;
+            /* padding-bottom: 1.8rem; */
+        }
+
+
+        .get-para {
+            width: 40rem;
+        }
+
+
+
+
+
+
+        .foot-card3 {
+            /* border: 2px solid red;  */
+            height: 89%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            gap: 0.5REM;
+            text-align: left;
+            padding-bottom: 1rem;
+        }
+
+
+        .foot-card4 {
+            /* border: 2px solid red;  */
+            height: 89%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            gap: 0.5REM;
+            text-align: left;
+            padding-bottom: 4rem;
+        }
+
+
+
+        .last {
+            color: white;
+            width: 27rem;
+        }
+
+
+    }
+
+
+}
+
+
+@media (max-width:575px) {
+
+    .row {
+        width: 100%;
+        max-width: 200px;
+        margin: 0 auto;
+        /* overflow: hidden; */
+    }
+
+
+
+    header {
+        background-color: teal;
+        height: 54rem;
+        /* width: 100%; */
+        overflow: hidden;
+
+    }
+
+
+    .headerParent {
+        display: flex;
+        flex-direction: column;
+        margin-top: .2rem;
+        /* width: 100%; */
+    }
+
+
+    .headerTextarea {
+        width: 100%;
+        /* height: 30rem; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+
+    .headerText {
+        font-size: 2rem;
+        color: white;
+        width: 25rem;
+    }
+
+    .headerPara {
+        color: white;
+        font-size: 1.2rem;
+        width: 23rem;
+        text-align: center;
+    }
+
+
+    .header-fig {
+        width: 100%;
+        height: 24rem;
+    }
+
+
+    .wwd-head {
+        /* border: 2px solid red; */
+        height: 8rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 6rem;
+        gap: 1.5rem;
+        font-size: 1rem;
+        width: 100%;
+        /* overflow: hidden; */
+    }
+
+
+
+    .wwd-header {
+        font-size: 1.7rem;
+        width: 17rem;
+    }
+
+
+
+    .w-w-c-img {
+        width: 20rem;
+        height: 17rem;
+        padding: 0.7rem;
+    }
+
+    .solutions-image {
+        width: 100%;
+    }
+
+
+
+    .solu-texthead {
+        width: 23rem;
+        font-size: 25px;
+    }
+
+
+    .stu-txt {
+        width: 20rem;
+        font-size: 1.5rem;
+        text-align: center;
+        margin-left: 2rem;
+    }
+
+    .ft-hd {
+        font-size: 23px;
+    }
+
+
+
+    .get-para {
+        font-size: 14px;
+    }
+
+
+    .copy-r {
+        font-size: 14px;
+    }
+
+
+
+
+    .info {
+        font-size: 14px;
+    }
+
+
+    .tele {
+        font-size: 14px;
+    }
+
+
+
+    .reduce {
+        font-size: 14px;
+    }
+
+
+    .last {
+        font-size: 14px;
+    }
+
+
+
+    .in {
+        width: 17rem;
+    }
+
+
+
+    .foot-head {
+        width: 100%;
+        height: 100rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .head-t {
+        font-size: 23px;
+        width: 21rem;
+        text-align: left;
+        /* padding-right: 1rem; */
+    }
+
+
+    .nav-btn1 {
+        border: none;
+        background-color: teal;
+        border-radius: 1.5rem;
+        /* padding: 0.8rem; */
+        color: white;
+        font-size: 14px;
+        height: 2rem;
+        width: 8rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        /* margin-right: 22rem; */
+    }
+
+
+    .solu-para {
+        /* width: 22rem; */
+    }
+
+    .nav-btn1 {
+        margin-left: 9rem;
+    }
+
+
+
+
+    .card1 {
+        height: 17rem;
+        width: 100%;
+        /* border: 2px solid aqua; */
+        border-radius: 0.5rem;
+        box-shadow: 0.5px 0.5px 10px 5px whitesmoke;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding-top: 2rem;
+        text-align: center;
+    }
+
+
+
+    .head-cards {
+        width: 100%;
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1.2rem;
+        margin-top: 1rem;
+        /* margin: 1rem 0 10rem 0; */
+    }
+
+
+    #what-we-do {
+        /* border: 4px solid #343E51; */
+        width: 100%;
+        /* height: 90rem; */
+    }
+
+
+    .what-flex {
+        width: 100%;
+    }
+
+
+
+    .wwd-head {
+        width: 100%;
+    }
+
+}
